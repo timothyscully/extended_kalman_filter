@@ -1,6 +1,7 @@
 #ifndef TOOLS_H_
 #define TOOLS_H_
 
+#include <iostream>
 #include <vector>
 #include "Eigen/Dense"
 
@@ -26,7 +27,6 @@ class Tools {
    * A helper method to calculate Jacobians.
    */
   Eigen::MatrixXd CalculateJacobian(const Eigen::VectorXd& x_state);
-
 };
 
 #endif  // TOOLS_H_
